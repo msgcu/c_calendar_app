@@ -139,11 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Add.c" />
     <ClCompile Include="Calendar.c" />
+    <ClCompile Include="cal_store.c" />
     <ClCompile Include="Help.c" />
+    <ClCompile Include="utils.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Add.h" />
+    <ClInclude Include="cal_store.h" />
     <ClInclude Include="commands_list.h" />
+    <ClInclude Include="help.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

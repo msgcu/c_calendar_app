@@ -21,9 +21,30 @@
     <ClCompile Include="Help.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cal_store.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Add.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="commands_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="help.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cal_store.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Add.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
